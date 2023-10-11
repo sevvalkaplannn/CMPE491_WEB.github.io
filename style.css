@@ -1,0 +1,132 @@
+
+.ma-home-banner {
+    position: fixed;
+    height: 1.8rem;
+    width: 100%;
+    left: 0;
+    top: 0;
+    color: white;
+    background: #000f2e;
+  }
+  
+  .ma-logo{
+    height: 2rem;
+    margin-left: 2rem;
+  }.ma-header {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 100;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    left: 0;
+    top: 1.8rem;
+    background: white;
+  }
+  
+  #nav > ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #nav > ul > li > a {
+    display: block;
+    height: auto;
+    font-size: 1.1rem;
+    color: black;
+    padding: 5px;
+    margin-left: 4rem;
+    text-decoration: none;
+    transition: underline-offset 0.15s ease-in-out, text-decoration 0.15s ease-in-out;
+  }
+  
+  #nav > ul > li > a:hover {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    color: rgb(30, 105, 161);
+  }
+  
+  
+  .ma-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 6rem;
+  
+  }
+  
+  .ma-card {
+    border: 1px solid #84aee4;
+    border-radius: 30px;
+    box-shadow: 0 2px 4px rgba(16, 6, 125, 0.1);
+    padding: 20px;
+    background: rgb(121, 180, 58);
+    background: linear-gradient(90deg, rgb(77, 158, 143) 0%, rgb(29, 193, 253) 50%, rgb(45, 86, 127) 100%);
+    text-align: center;
+    display: table;
+    margin-top: 4rem;
+    width: 50rem;
+    margin-left: 20%;
+  }
+  
+  
+  .ma-card h3 {
+    margin-bottom: 10px;
+  }
+  
+  .ma-card ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .ma-card ul li {
+    margin-bottom: 5px;
+  }
+  
+  .ma-oval-card {
+    border: 4px solid #98bceb;
+    border-radius: 100px;
+    box-shadow: 0 2px 4px rgba(16, 6, 125, 0.1);
+    padding: 20px;
+    margin: 30px;
+    text-align: center;
+  }
+  
+  
+  
+  .ma-page{
+    position: absolute;
+    height: 150%;
+    width: 100%;
+  }
+
+  table {
+    width: 70%;
+    border-collapse: collapse;
+    margin-left: 15%;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px 18px; 
+    text-align: center;
+    
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  .sprint-row{
+    background-color: rgb(95, 166, 202)
+  ;
+  }
+  .task-row{
+    background-color: rgb(95, 166, 202)
+;  }
+  
+  .table{
+    margin-top: 150px;
+  }
