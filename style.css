@@ -140,6 +140,7 @@
     color: #000f2e;
     cursor: pointer;
     width: 200px;
+    text-decoration: none;
   }
 
   .ma-proposal-link:hover{
