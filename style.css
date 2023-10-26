@@ -53,7 +53,7 @@
   .ma-container {
     display: flex;
     flex-direction: column;
-    margin-top: 6rem;
+    margin-top: 7rem;
     align-items: center;
   
   }
@@ -98,14 +98,15 @@
   
   .ma-page{
     position: absolute;
-    height: 150%;
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
-  table {
-    width: 70%;
+  .table {
+    width: 90%;
     border-collapse: collapse;
-    margin-left: 15%;
   }
   
   th, td {
@@ -120,16 +121,14 @@
   }
   
   .sprint-row{
-    background-color: rgb(95, 166, 202)
-  ;
+    background-color: rgb(28, 11, 85);
+    
+  color: white;
   }
   .task-row{
     background-color: rgb(95, 166, 202)
 ;  }
-  
-  .table{
-    margin-top: 150px;
-  }
+
 
 
   .ma-proposal-link{
