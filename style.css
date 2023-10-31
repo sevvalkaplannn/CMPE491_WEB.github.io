@@ -6,7 +6,8 @@
     left: 0;
     top: 0;
     color: white;
-    background: #FFD6D1;
+    background: rgb(124,185,241);
+    background: radial-gradient(circle, rgba(124,185,241,1) 0%, rgba(148,150,233,1) 100%);
   }
   
   .ma-logo{
@@ -63,8 +64,8 @@
     border-radius: 30px;
     box-shadow: 0 2px 4px rgba(16, 6, 125, 0.1);
     padding: 20px;
-    background: rgb(254,176,106);
-    background: linear-gradient(90deg, rgba(254,176,106,1) 0%, rgba(248,131,121,1) 50%);
+    background: rgb(124,185,241);
+    background: radial-gradient(circle, rgba(124,185,241,1) 0%, rgba(148,150,233,1) 100%);
     text-align: center;
     display: table;
     margin-top: 4rem;
@@ -86,7 +87,7 @@
   }
   
   .ma-oval-card {
-    border: 4px solid  rgb(254,176,106);
+    border: 4px solid  rgb(51, 121, 213);
     border-radius: 100px;
     box-shadow: 0 2px 4px rgba(16, 6, 125, 0.1);
     padding: 20px;
@@ -131,7 +132,8 @@
 
 
   .ma-proposal-link{
-    background-color:  #feb06a;
+    background: rgb(93,224,230);
+background: linear-gradient(90deg, rgba(93,224,230,1) 0%, rgb(51, 121, 213) 100%);
     border-radius: 100px;
     box-shadow: 0 2px 4px rgba(16, 6, 125, 0.1);
     padding: 20px;
