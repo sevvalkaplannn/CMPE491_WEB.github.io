@@ -31,6 +31,7 @@
   
   #nav > ul {
     display: flex;
+    align-items: center;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -39,10 +40,10 @@
   #nav > ul > li > a {
     display: block;
     height: auto;
-    font-size: 1.1rem;
+    font-size: 16px;
     color: black;
     padding: 5px;
-    margin-left: 4rem;
+    margin-left: 2rem;
     text-decoration: none;
     transition: underline-offset 0.15s ease-in-out, text-decoration 0.15s ease-in-out;
   }
@@ -58,6 +59,7 @@
     display: flex;
     flex-direction: column;
     margin-top: 7rem;
+    margin-bottom: 3rem;
     align-items: center;
   
   }
@@ -67,6 +69,7 @@
     flex-direction: column;
     margin-top: 9rem;
     align-items: center;
+    margin-bottom: 3rem;
   
   }
 
@@ -75,8 +78,7 @@
     border-radius: 30px;
     box-shadow: 0 2px 4px rgba(16, 6, 125, 0.1);
     padding: 20px;
-    background: rgb(124,185,241);
-    background: radial-gradient(circle, rgba(124,185,241,1) 0%, rgba(148,150,233,1) 100%);
+    background: white;
     text-align: center;
     display: table;
     margin-top: 4rem;
@@ -97,16 +99,17 @@
     margin-bottom: 5px;
   }
   
-  .ma-oval-card {
-    border: 4px solid  rgb(51, 121, 213);
-    border-radius: 100px;
-    box-shadow: 0 2px 4px rgba(16, 6, 125, 0.1);
-    padding: 20px;
-    margin: 30px;
-    text-align: center;
+  .ma-image-card {
+    padding-right: 6rem;
+    padding-left: 6rem;
+    display: flex;
+    align-items: center;
+    flex-direction: row;}
+  
+  
+  html{
+    background: radial-gradient(circle, rgba(124,185,241,1) 0%, rgba(148,150,233,1) 100%);
   }
-  
-  
   
   .ma-page{
     position: absolute;
@@ -114,6 +117,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background: radial-gradient(circle, rgba(124,185,241,1) 0%, rgba(148,150,233,1) 100%);
   }
 
   .table {
@@ -144,7 +148,7 @@
 
   .ma-proposal-link{
     background: rgb(93,224,230);
-background: linear-gradient(90deg, rgba(93,224,230,1) 0%, rgb(51, 121, 213) 100%);
+    background: linear-gradient(90deg, rgba(93,224,230,1) 0%, rgb(51, 121, 213) 100%);
     border-radius: 100px;
     box-shadow: 0 2px 4px rgba(16, 6, 125, 0.1);
     padding: 20px;
@@ -162,12 +166,11 @@ background: linear-gradient(90deg, rgba(93,224,230,1) 0%, rgb(51, 121, 213) 100%
 
   .ma-tabs-list{
     margin-top: 7rem;
-
   }
 
   #tabs{margin:0px;padding:0px;list-style-type:none;}
   #tabs li a{
-    background-color: #84aee4;
+    background-color: #b8d1f1;
     border-radius: 30px; 
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; 
     border: none;
@@ -178,7 +181,8 @@ background: linear-gradient(90deg, rgba(93,224,230,1) 0%, rgb(51, 121, 213) 100%
     line-height:50px;
     display:inline-block;
     margin-top: 20px;
-    float:left;
+    margin-right: 1rem; 
+    float: left;   
     position: relative;
     left: 3rem;
   }
